@@ -12,7 +12,7 @@ from PIL import Image, ImageOps
 app = FastAPI()
 
 # 1) Carrega o modelo treinado (Garante que "meu_modelo.joblib" está no GitHub)
-modelo = joblib.load("meu_modelo.joblib")
+modelo = joblib.load("modelo.joblib")
 
 # Dicionário mapeando os rótulos do seu LabelEncoder no Colab
 dicionario_classes = {
