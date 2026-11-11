@@ -1,11 +1,10 @@
 fastapi
-numpy
-requests
 pydantic
+requests
 Pillow
 uvicorn
 pandas
-matplotlib
-joblib
 scikit-learn
 xgboost
+joblib
+pytesseract
